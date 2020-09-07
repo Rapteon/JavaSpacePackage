@@ -84,4 +84,11 @@ public class Space{
         inputBar();
         
     }
+
+    void ArrayPrinter(int[] array){
+        printHeading(array.length, "Array");
+        for(int i = 0; i < array.length; i++)
+            System.out.print(""+array[i]+"|");
+        System.out.println("\b ");  //Removing last pipe character and moving cursor to newline.
+    }
 }
