@@ -85,7 +85,7 @@ public class Space{
         
     }
 
-    void ArrayPrinter(int[] array){
+    void arrayPrinter(int[] array){
         printHeading(array.length, "Array");
         for(int i = 0; i < array.length; i++)
             System.out.print(""+array[i]+"|");
